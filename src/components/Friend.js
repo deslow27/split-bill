@@ -13,7 +13,7 @@ export default function Friend({ friend }) {
                     {friend.name} berhutang Rp {Math.abs(friend.balance)} kepada kamu
                 </p>
             )}
-            {friend.balance === 0 && <p>Kamu dan {friend.name} berhutang</p>}
+            {friend.balance === 0 && <p>Kamu dan {friend.name} tidak ada hutang</p>}
             <button className="button">Pilih</button>
         </li>
     );
